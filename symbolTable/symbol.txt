@@ -1,0 +1,13 @@
+ID variable_name
+NUM 123
+OP +
+ID another_variable
+OP -
+NUM 3.14
+ID example
+KW if
+OP *
+NUM 42
+ID username
+KW else
+ID password
