@@ -1,0 +1,32 @@
+body{
+   height: 95vh;
+    background-image: url("./Images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1{
+    border: 2px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#div1 div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}

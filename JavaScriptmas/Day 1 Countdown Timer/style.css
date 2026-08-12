@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    position: relative;
+}
+
+.content {
+    top: 20%;
+    position: absolute;
+    color: white;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    margin-left: 200px;
+}
+
+.content h1 span {
+    color: #23d997;
+}
+
+.countdown {
+    display: flex;
+    padding-top: 50px;
+}
+
+.countdown div {
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.countdown div p {
+    font-size: 60px;
+    margin-bottom: -14px;
+    padding-bottom: 10px;
+}
+
+.countdown div span {
+    text-decoration: underline #23d997;
+}
+
+.countdown div:hover {
+    color: rgb(217, 35, 35);
+}
